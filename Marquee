@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { 
+      margin: 0; 
+      padding: 0; 
+      overflow: hidden; 
+      background: transparent; 
+      font-family: Arial, sans-serif;
+    }
+    .marquee-text {
+      font-size: 16px;
+      color: #333333; /* Change hex color to match your dashboard theme */
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- Note: <marquee> is technically deprecated but universally supported; 
+       Alternatively, you can use standard CSS marquee animations -->
+  <marquee class="marquee-text" scrollamount="5">
+    ⚠️ Important Dashboard Update: Q2 Data Refreshing at 5:00 PM EST! 
+  </marquee>
+</body>
+</html>
