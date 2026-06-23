@@ -2,3 +2,5 @@ CCP, Block Strength Report:
 https://script.google.com/macros/s/AKfycbwCfm5xTkYEY1Kzb95FyJG9C-zoYQ5NdkdJAJM6RYvPTZxLzZ1yMkKiRsLiNJ6Dxnqi4g/exec
 Cafe and Bakery Sales
 https://script.google.com/macros/s/AKfycbx0ZYsgg4eX1QLS9k48ykY6nukLDHZAGU46KZRn_9p1U3FEmYiSdiLIbKNxFAXyv22x/exec
+Vehicle Log
+https://script.google.com/macros/s/AKfycbwn8awSQc0260e-V6nQjuyt4-cl_bJ6PB37zYYA-kOMuOkL1n3YH58dVHeuks1Uy1FM/exec
