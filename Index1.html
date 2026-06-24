@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmate Tracking System</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; }
+        .form-container { max-width: 500px; background: white; margin: 20px auto; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; margin-top: 0; }
+        label { font-weight: bold; color: #555; display: block; margin-bottom: 5px; }
+        input, select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 14px; }
+        input:focus, select:focus { border-color: #007bff; outline: none; }
+        button { width: 100%; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Inmate Data Entry</h2>
+    
+    <!-- ⚠️ REPLACE THE ACTION URL BELOW WITH YOUR SHEET MONKEY/THIRD-PARTY ENDPOINT URL -->
+    <form action="PASTE_YOUR_FORM_ENDPOINT_URL_HERE" method="POST" enctype="multipart/form-data">
+        
+        <label for="block">Block Selection</label>
+        <select id="block" name="Block" required>
+            <option value="" disabled selected>-- Choose Block --</option>
+            <option value="Block I">Block I</option>
+            <option value="Block II">Block II</option>
+            <option value="Block III">Block III</option>
+            <option value="Block IV">Block IV</option>
+            <option value="Block V">Block V</option>
+            <option value="Block VI">Block VI</option>
+            <option value="Block VII">Block VII</option>
+            <option value="Block VIII">Block VIII</option>
+            <option value="Block IX">Block IX</option>
+        </select>
+
+        <label for="inmateNo">Inmate No.</label>
+        <input type="text" id="inmateNo" name="Inmate No." placeholder="Enter inmate ID / number" required>
+
+        <label for="inmateName">Inmate Name</label>
+        <input type="text" id="inmateName" name="Inmate Name" placeholder="Full legal name" required>
+
+        <label for="purpose">Purpose</label>
+        <input type="text" id="purpose" name="Purpose" placeholder="Reason for entry">
+
+        <label for="checkStatus">Check Status</label>
+        <input type="text" id="checkStatus" name="Check Status" placeholder="Current operational status">
+
+        <label for="submittedBy">Submitted by Rani Name</label>
+        <input type="text" id="submittedBy" name="Submitted by Rani Name" placeholder="Officer / Logger name">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" placeholder="Additional reference name">
+
+        <label for="photoFile">Upload Inmate Photo</label>
+        <!-- The service turns this file input into a clickable URL inside column I -->
+        <input type="file" id="photoFile" name="Photo Link" accept="image/*" required>
+
+        <button type="submit">Submit Data Row</button>
+    </form>
+</div>
+
+</body>
+</html>
