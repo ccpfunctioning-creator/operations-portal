@@ -5,4 +5,4 @@ https://script.google.com/macros/s/AKfycbx0ZYsgg4eX1QLS9k48ykY6nukLDHZAGU46KZRn_
 Vehicle Log
 https://script.google.com/macros/s/AKfycbwn8awSQc0260e-V6nQjuyt4-cl_bJ6PB37zYYA-kOMuOkL1n3YH58dVHeuks1Uy1FM/exec
 GC & RC
-https://script.google.com/macros/s/AKfycbyST90xVtsmc41MMBy13iiEcXUbQ9OZXwFZL1OtK55CM7mVxZ6BkfKexWdrcC7Fu1mq/exec
+https://script.google.com/macros/s/AKfycby7tfya8CizmTWQwXvTpEj2EXiGdMTUilNiGOQx-0XLlBjLa2kdNkqnZuPxJ3OWiMYP/exec
