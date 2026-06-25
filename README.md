@@ -8,3 +8,5 @@ GC & RC
 https://script.google.com/macros/s/AKfycby7tfya8CizmTWQwXvTpEj2EXiGdMTUilNiGOQx-0XLlBjLa2kdNkqnZuPxJ3OWiMYP/exec
 Hospital/Court/Other Escorts
 https://ccpfunctioning-creator.github.io/operations-portal/Index1.html
+Tanalum
+https://script.google.com/macros/s/AKfycbzl2XoBCAEgjHvnuD554hJSbQYrtFbNqPVseibV1eNo8JrO3M8Fe3PLA42eJBdkID6n/exec
